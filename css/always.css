@@ -1,0 +1,213 @@
+body .header-icon li {
+    padding-right: 12px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #999 !important;
+}
+.index-left {
+    line-height: 30px;
+}
+.header-icon .login{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 5px;
+    background: url(../img/login.png);
+ }
+.header-icon .regist {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 5px;
+    background: url(../img/regist.png);
+}
+.header-icon .car {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 5px;
+    background: url(../img/car.png);
+}
+.header-icon .cang {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 5px;
+    background: url(../img/cang.png);
+}
+.userImg {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    border-radius: 50%;
+}
+b {
+    font-size: 15px;
+    color: #FA6F57;
+    padding:0 5px;
+    font-weight: 700;
+}
+.person_right {
+    padding: 20px 0;
+    position: relative;
+    left:20%;
+}
+.person_page {
+    margin-left: 10%;
+    font-size: 25px;
+    color:#FA6F57;
+    font-weight:900;
+}
+.collect-session {
+    color:#FA6F57;
+    font-size: 30px;
+    margin-left: 40%;
+    margin-top: 5%;
+    font-weight: 600;
+}
+.pay-current {
+    color: #fa6f57 !important;
+    font-weight: 600;
+    font-size: 15px!important;
+}
+.person_box {
+    background: #fff!important;
+}
+.address_btn {
+    margin-left: 10%!important;
+    margin-top: 5%;
+}
+.am-form-group {
+    margin-top: 3%;
+}
+.textarea-group {
+    margin-left: 10%!important;
+    width: 90%!important;
+}
+.item-price {
+    margin-left: -70%!important;
+    margin-top: 32px!important;
+}
+.item-num {
+    margin-left: -125%!important;
+    margin-top: 32px!important;
+}
+.item-price1 {
+    margin-left: 6%!important;
+    margin-top: 25px!important;
+}
+.item-num1 {
+    margin-left: -7%!important;
+    margin-top: 25px!important;
+}
+.ok {
+    font-size: 60px;
+    font-weight: 900;
+    color: #fa6f57;
+    margin-left: 33%;
+    margin-top: 2%;
+}
+/*百度地图*/
+#map {
+    width: 100%;
+    height: 800px;
+    background: #f0f;
+}
+#container_box {
+    position: absolute;
+    width: 450px;
+    top: 40%;
+    left: 80px;
+}
+
+#place_search_box {
+    width: 400px;
+}
+
+#place_input {
+    height: 40px;
+    width: 350px;
+    border: 0;
+    margin: 0;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.switch_btn {
+    width: 50px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#route_plan_box {
+    width: 400px;
+    display: none;
+    background: white;
+}
+
+#route_type_box {
+    width: 350px;
+    height: 40px;
+}
+
+#route_type_box>div {
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.distance {
+    display: block;
+    width: 10px;
+    height: 40px;
+}
+
+#start_end_input_box {
+    width: 400px;
+}
+
+#swap_input_val {
+    height: 80px;
+    width: 40px;
+    text-align: center;
+    line-height: 80px;
+}
+
+#input_group {
+    width: 360px;
+}
+
+#input_group>input {
+    width: 310px;
+    height: 40px;
+    margin: 0;
+    padding-left: 20px;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#search_btn {
+    height: 40px;
+    width: 50px;
+}
+
+#display_route_result {
+    width: 350px;
+    height: 450px;
+    display: none;
+    overflow: auto;
+}
+
+#right {
+    height: 40px;
+    width: 50px;
+}
+.map_img {
+    width: 25px;
+    height:25px;
+    cursor: pointer;
+}
