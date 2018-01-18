@@ -163,7 +163,7 @@
                         <div class="am-tabs am-tabs-d2 am-margin" data-am-tabs>
 
                             <ul class="am-avg-sm-5 am-tabs-nav am-nav am-nav-tabs">
-                                <li class="am-active"><a href="#tab1">所有订单</a></li>
+                                <li class="am-active"><a href="#tab1">商品支付订单</a></li>
                             </ul>
 
                             <div class="am-tabs-bd">
@@ -302,7 +302,7 @@
             <li class="person">
                 <p>在线客服</p>
                 <ul>
-                    <li> <a href="suggest.html">意见反馈</a></li>
+                    <li> <a href="suggest.php">意见反馈</a></li>
                 </ul>
             </li>
         </ul>

@@ -254,8 +254,8 @@ $(function () {
                 if(data.res == 'no_login'){
                     alert("亲，您还没登录！");
                     window.location.href = './login.php';
-                } else if (data.res == 'error') {
-                    alert('提交意见失败');
+                } else if (data.res == 'admin_no_login') {
+                    alert('亲！管理员没有登录，请及时联系本网站管理员哦！');
                     window.location.reload();
                 }else if(data.res == 'success'){
                     alert('提交意见成功，即将跳转到主页！');

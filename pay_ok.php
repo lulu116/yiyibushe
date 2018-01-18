@@ -125,12 +125,12 @@
     <aside class="menu">
         <ul>
             <li class="person active">
-                <a href="person_center.php" >个人中心</a>
+                <a href="person_center.php">个人中心</a>
             </li>
             <li class="person">
                 <p>个人资料</p>
                 <ul>
-                    <li> <a href="person_center.php" >个人信息</a></li>
+                    <li> <a href="person_message.php">个人信息</a></li>
                     <li> <a href="address.php">地址管理</a></li>
                 </ul>
             </li>
@@ -138,8 +138,6 @@
                 <p>我的交易</p>
                 <ul>
                     <li><a href="order.php">订单管理</a></li>
-                    <li> <a href="change.html">退款售后</a></li>
-                    <li> <a href="comment.html">评价商品</a></li>
                 </ul>
             </li>
             <li class="person">
@@ -152,10 +150,11 @@
             <li class="person">
                 <p>在线客服</p>
                 <ul>
-                    <li> <a href="suggest.html">意见反馈</a></li>
+                    <li> <a href="suggest.php">意见反馈</a></li>
                 </ul>
             </li>
         </ul>
+
 
     </aside>
 </div>

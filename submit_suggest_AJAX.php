@@ -4,6 +4,10 @@
         echo json_encode(array('res'=>'no_login'));
         exit;
     }
+    if(!$_SESSION['admin_id']){
+        echo json_encode(array('res'=>'admin_no_login'));
+        exit;
+    }
     $data['content'] = $_POST["content"];
     $data['types'] = $_POST["sele_suggest"];
     $data['admin_id'] = $_SESSION['admin_id'];
