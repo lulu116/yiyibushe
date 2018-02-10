@@ -68,7 +68,9 @@
                                <b class="caret"></b>
                            </a>
                            <ul class="dropdown-menu extended logout">
-                               <li><a href="updatePWD.php"><i class="icon-cog"></i> 修改密码</a></li>
+                               <li><a href="updatePWD.php"><i class="icon-book"></i> 修改密码</a></li>
+                               <li><a href="admin_suggest.php"><i class="icon-cog"></i> 用户反馈</a></li>
+                                <li><a href="person_message.php"><i class="icon-user"></i>查看个人信息</a></li>
                                <li><a href="login.php?loginaction=loginquit"><i class="icon-key"></i> 退出登录</a></li>
                            </ul>
                        </li>
@@ -115,7 +117,7 @@
                   </li>
                   <li class="sub-menu active">
                       <a href="javascript:;" class="">
-                          <i class="icon-book"></i>
+                          <i class="icon-trophy"></i>
                           <span>商品内容管理</span>
                           <span class="arrow"></span>
                       </a>
@@ -124,19 +126,40 @@
                           <li><a class="" href="contentList.php">内容列表</a></li>
                       </ul>
                   </li>
-                     <li class="sub-menu">
+                   <li class="sub-menu active">
                       <a href="javascript:;" class="">
-                          <i class="icon-user"></i>
-                          <span>其他操作</span>
+                          <i class="icon-book"></i>
+                          <span>网站用户管理</span>
                           <span class="arrow"></span>
                       </a>
                       <ul class="sub">
-                          <li><a href="updatePWD.php">修改密码</a></li>
-                          <li><a href="login.php?loginaction=loginquit">退出登录</a></li>
-                      </ul>
-                  </li>     
+                          <li><a class="" href="userList.php">用户列表</a></li>
+                          <li><a class="" href="addsuggest.php">回复用户反馈</a></li>
+                          <li><a class="" href="admin_suggest.php">查看用户反馈</a></li>
                       </ul>
                   </li>
+                   <li class="sub-menu active">
+                      <a href="javascript:;" class="">
+                          <i class="icon-file-alt"></i>
+                          <span>订单管理</span>
+                          <span class="arrow"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="admin_orders.php">订单列表</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                    <a href="javascript:;" class="">
+                        <i class="icon-user"></i>
+                        <span>个人中心管理</span>
+                        <span class="arrow"></span>
+                    </a>
+                    <ul class="sub">
+                        <li><a href="updatePWD.php">修改密码</a></li>
+                        <li><a href="person_message.php">查看个人信息</a></li>
+                        <li><a href="login.php?loginaction=loginquit">退出登录</a></li>
+                    </ul>
+                </li>     
               </ul>
               <!-- END SIDEBAR MENU -->
           </div>

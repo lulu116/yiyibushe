@@ -270,7 +270,7 @@
                                     <div class="price"><span class="sym">¥</span><?php echo $order_product_v[0]['price']?><span class="sym">.00</span></div>
 
                                 </div>
-                                <a href="javascript:void(0);" class="btnPay">再次购买</a>
+                                <a href="index.php" class="btnPay">再次购买</a>
                             </div>
                             <?php
                         }

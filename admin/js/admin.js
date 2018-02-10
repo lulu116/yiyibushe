@@ -196,7 +196,77 @@ $(document).ready(function() {
             }
         });
     });
+    //10.管理员给用户的反馈回复
+    $("#addSuggest").click(function(){
+        var admin_suggest = $("#admin_suggest").val();
+        var username = $("#username").val();
+        if(!$("#admin_suggest").val()){
+            $("#admin_suggest").next('span').html('必填').css('color','#f00');
+            $("#admin_suggest").focus().css('border','1px solid #f00');
+            return;
+        }else {
+            $("#admin_suggest").next('span').html('');
+        }
+        $.ajax({
+            url: 'addSuggest_AJAX.php',
+            type: 'POST',
+            dataType: 'json',
+            data: {admin_suggest:admin_suggest,username:username},
+            success: function(data) {
+                if (data.res == 'success') {
+                    alert('回复成功！');
+                    window.location.href = "admin_suggest.php";
+                } else if(data.res == 'error') {
+                    alert('回复失败！');
+                    window.location.reload();
+                }
+            }
+        });
 
+    });
+    //11.删除反馈信息
+    $(".delsuggest").click(function(){
+        if(!confirm('亲，请考虑清楚再删除吧！')){
+            return;
+        }
+        //得到反馈信息ID
+        var suggest_id = $(this).attr('suggest_id');
+        //发送AJAX请求
+        $.ajax({
+            url: 'delSuggest_AJAX.php',
+            type: 'POST',
+            dataType: 'json',
+            data: { suggest_id: suggest_id },
+            success: function(data) {
+                if (data.res == 'success') {
+                    alert('删除成功！');
+                    window.location.reload(); //刷新当前页
+                } else if(data.res == 'error') {
+                    alert('删除失败！');
+                }
+            }
+        });
+    });
+    //12.修改管理员给用户的反馈
+    $("#update_suggest").click(function(){
+        var admin_suggest = $("#admin_suggest").val();
+        var suggest_id = $("#admin_suggest").attr("suggest_id");
+        $.ajax({
+            url: 'updateSuggest_AJAX.php',
+            type: 'POST',
+            dataType: 'json',
+            data: { admin_suggest: admin_suggest,suggest_id:suggest_id },
+            success: function(data) {
+                if (data.res == 'success') {
+                    alert('修改成功！');
+                    window.location.href = "./admin_suggest.php"; //刷新当前页
+                } else if(data.res == 'error') {
+                    alert('修改失败！');
+                    window.location.reload(); //刷新当前页
+                }
+            }
+        });
+    });
 
 
 });

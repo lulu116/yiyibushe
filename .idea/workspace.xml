@@ -2,14 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f911d1f-1dcb-4cd9-b715-3bc938c73a0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yiyibushe.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/addSuggest_AJAX.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/addsuggest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/admin_orders.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/admin_suggest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/delSuggest_AJAX.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/person_message.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/updateSuggest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/updateSuggest_AJAX.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/userList.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/css/style.css" afterPath="$PROJECT_DIR$/admin/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/head.php" afterPath="$PROJECT_DIR$/admin/head.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/js/admin.js" afterPath="$PROJECT_DIR$/admin/js/admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/js/login.js" afterPath="$PROJECT_DIR$/admin/js/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/login.js" afterPath="$PROJECT_DIR$/js/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/regist.js" afterPath="$PROJECT_DIR$/js/regist.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/user.js" afterPath="$PROJECT_DIR$/js/user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay.php" afterPath="$PROJECT_DIR$/pay.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay_ok.php" afterPath="$PROJECT_DIR$/pay_ok.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person_center.php" afterPath="$PROJECT_DIR$/person_center.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/submit_suggest_AJAX.php" afterPath="$PROJECT_DIR$/submit_suggest_AJAX.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/update_address.php" afterPath="$PROJECT_DIR$/update_address.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suggest.php" afterPath="$PROJECT_DIR$/suggest.php" />
     </list>
     <ignored path="yiyibushe.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,85 +43,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pay.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pay.php">
+      <file leaf-file-name="admin_suggest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/admin_suggest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="309" column="12" selection-start-line="309" selection-start-column="12" selection-end-line="309" selection-end-column="12" />
+            <state vertical-scroll-proportion="51.75">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pay_ok.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pay_ok.php">
+      <file leaf-file-name="updateSuggest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/updateSuggest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+            <state vertical-scroll-proportion="42.75">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update_address.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/update_address.php">
+      <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/js/admin.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="184" column="20" selection-start-line="184" selection-start-column="20" selection-end-line="184" selection-end-column="20" />
+              <caret line="261" column="63" selection-start-line="261" selection-start-column="63" selection-end-line="261" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="suggest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/suggest.php">
+      <file leaf-file-name="updateSuggest_AJAX.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/updateSuggest_AJAX.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="170" column="57" selection-start-line="170" selection-start-column="57" selection-end-line="170" selection-end-column="57" />
+            <state vertical-scroll-proportion="-8.25">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24257426">
-              <caret line="248" column="25" selection-start-line="248" selection-start-column="25" selection-end-line="248" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="252" column="9" selection-start-line="252" selection-start-column="9" selection-end-line="252" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="submit_suggest_AJAX.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/submit_suggest_AJAX.php">
+      <file leaf-file-name="regist.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/regist.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="53" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="53" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.1980198">
+              <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="db.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/class/db.php">
+        <entry file="file://$PROJECT_DIR$/admin/class/db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+            <state vertical-scroll-proportion="-4.7727275">
+              <caret line="108" column="19" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
               <folding>
-                <marker date="1516100720546" expanded="true" signature="1493:1575" placeholder="INSERT INTO ${$table}... " />
-                <marker date="1516100720546" expanded="true" signature="1898:1927" placeholder="DELETE FROM " />
+                <marker date="1518253685448" expanded="true" signature="2127:2209" placeholder="INSERT INTO ${$table}... " />
+                <marker date="1518253685448" expanded="true" signature="2628:2657" placeholder="DELETE FROM " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="person_center.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/person_center.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="421" column="0" selection-start-line="390" selection-start-column="7" selection-end-line="421" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -130,11 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin/login.php" />
-        <option value="$PROJECT_DIR$/admin/index.php" />
-        <option value="$PROJECT_DIR$/uploadUserimg.php" />
-        <option value="$PROJECT_DIR$/regist.php" />
-        <option value="$PROJECT_DIR$/regist_AJAX.php" />
         <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/admin/public/plug/ue/php/config.json" />
         <option value="$PROJECT_DIR$/js/regist.js" />
@@ -155,7 +162,6 @@
         <option value="$PROJECT_DIR$/css/personal.css" />
         <option value="$PROJECT_DIR$/updateAddress_AJAX.php" />
         <option value="$PROJECT_DIR$/css/amazeui.css" />
-        <option value="$PROJECT_DIR$/js/login.js" />
         <option value="$PROJECT_DIR$/updateUserImg_AJAX.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/pay_AJAX.php" />
@@ -181,6 +187,12 @@
         <option value="$PROJECT_DIR$/class/db.php" />
         <option value="$PROJECT_DIR$/submit_suggest_AJAX.php" />
         <option value="$PROJECT_DIR$/js/user.js" />
+        <option value="$PROJECT_DIR$/admin/css/style.css" />
+        <option value="$PROJECT_DIR$/admin/head.php" />
+        <option value="$PROJECT_DIR$/admin/admin_orders.php" />
+        <option value="$PROJECT_DIR$/admin/class/db.php" />
+        <option value="$PROJECT_DIR$/admin/js/admin.js" />
+        <option value="$PROJECT_DIR$/js/login.js" />
       </list>
     </option>
   </component>
@@ -224,8 +236,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -246,6 +256,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,14 +324,20 @@
       <option name="project" value="LOCAL" />
       <updated>1515501841212</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="更新网站">
+      <created>1516245352116</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1516245352116</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -352,7 +370,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增图标" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增图标" />
+    <MESSAGE value="更新网站" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新网站" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -361,74 +380,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/js/all-chartjs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/contentList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20175439">
-          <caret line="82" column="63" selection-start-line="82" selection-start-column="63" selection-end-line="82" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/image/big_banner1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/js/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1138614">
-          <caret line="160" column="29" selection-start-line="160" selection-start-column="29" selection-end-line="160" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/addContent_AJAX.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.25">
-          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/addContent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.083333">
-          <caret line="78" column="49" selection-start-line="78" selection-start-column="49" selection-end-line="78" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/regist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26732674">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/products.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addCart_icon_AJAX.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addCollect_AJAX.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.083333">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/minified.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="626.65955">
@@ -496,13 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6157895">
           <caret line="13" column="5" selection-start-line="9" selection-start-column="3" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28712872">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -618,13 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28333333">
-          <caret line="149" column="31" selection-start-line="149" selection-start-column="31" selection-end-line="149" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/always.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38421053">
@@ -670,7 +607,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/person_center.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="19.942104">
           <caret line="421" column="0" selection-start-line="390" selection-start-column="7" selection-end-line="421" selection-end-column="0" />
           <folding />
         </state>
@@ -694,11 +631,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class/db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="2.0842106">
           <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
           <folding>
-            <marker date="1516100720546" expanded="true" signature="1493:1575" placeholder="INSERT INTO ${$table}... " />
-            <marker date="1516100720546" expanded="true" signature="1898:1927" placeholder="DELETE FROM " />
+            <marker date="1516423561274" expanded="true" signature="1493:1575" placeholder="INSERT INTO ${$table}... " />
+            <marker date="1516423561274" expanded="true" signature="1898:1927" placeholder="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -706,23 +643,126 @@
     <entry file="file://$PROJECT_DIR$/suggest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="170" column="57" selection-start-line="170" selection-start-column="57" selection-end-line="170" selection-end-column="57" />
+          <caret line="171" column="57" selection-start-line="171" selection-start-column="57" selection-end-line="171" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/submit_suggest_AJAX.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33157894">
+          <caret line="9" column="5" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/contentList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="117" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42631578">
+          <caret line="147" column="70" selection-start-line="147" selection-start-column="70" selection-end-line="147" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47894737">
+          <caret line="4654" column="17" selection-start-line="4654" selection-start-column="17" selection-end-line="4654" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2777777">
+          <caret line="195" column="53" selection-start-line="195" selection-start-column="12" selection-end-line="195" selection-end-column="53" />
+          <folding>
+            <marker date="1515498265971" expanded="true" signature="223:270" placeholder="UPDATE user " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/admin_orders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75614035">
+          <caret line="80" column="143" selection-start-line="80" selection-start-column="143" selection-end-line="80" selection-end-column="143" />
+          <folding>
+            <marker date="1518253320747" expanded="true" signature="4056:4127" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/admin_suggest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="51.75">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/updateSuggest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="42.75">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/class/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.7727275">
+          <caret line="108" column="19" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
+          <folding>
+            <marker date="1518253685448" expanded="true" signature="2127:2209" placeholder="INSERT INTO ${$table}... " />
+            <marker date="1518253685448" expanded="true" signature="2628:2657" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/js/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="53" />
+          <caret line="261" column="63" selection-start-line="261" selection-start-column="63" selection-end-line="261" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/updateSuggest_AJAX.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.25">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24257426">
-          <caret line="248" column="25" selection-start-line="248" selection-start-column="25" selection-end-line="248" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="252" column="9" selection-start-line="252" selection-start-column="9" selection-end-line="252" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/regist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1980198">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
           <folding />
         </state>
       </provider>

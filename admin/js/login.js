@@ -103,7 +103,7 @@ $(document).ready(function() {
                     return;
                 }
                 if (data.res == 'success') {
-                    alert('修改成功，即将跳转到主页！');
+                    alert('密码更新，即将跳转到登录页！');
                    window.location.href="login.php";
                 }
             }

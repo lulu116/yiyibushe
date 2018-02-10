@@ -35,7 +35,6 @@ $(function(){
                 $("#passwd").next('span').html('');
             }
         }
-
         if(!tel){
             $("#tel").next('span').html('请输入手机号!');
             $("#tel").next('span').css('color','#f00');
@@ -51,9 +50,7 @@ $(function(){
             }else{
                 $("#tel").next('span').html('');
             }
-
         }
-
         if(!useraddress){
             $("#useraddress").next('span').html('请输入地址!');
             $("#useraddress").next('span').css('color','#f00');
@@ -69,7 +66,6 @@ $(function(){
         }else{
             $("#usercode").css('border',"1px solid #fff");
         }
-
         //数据格式无误发送ajax请求
         $.ajax({
             url: './regist_AJAX.php',
@@ -96,9 +92,5 @@ $(function(){
                 }
             }
         });
-
-
-        
-
 	});
 });

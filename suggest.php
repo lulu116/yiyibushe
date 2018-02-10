@@ -142,7 +142,8 @@
                         <p>描述问题：</p>
                         <blockquote class="textArea">
                             <textarea name="opinionContent" id="content" cols="60" rows="5" autocomplete="off" placeholder="在此描述您的意见具体内容"></textarea>
-                            <div class="fontTip"><i class="cur">0</i> / <i>200</i></div>
+                            <span></span>
+                        
                         </blockquote>
                     </div>
                     <div class="am-btn am-btn-danger anniu" id="submit_suggest">提交</div>

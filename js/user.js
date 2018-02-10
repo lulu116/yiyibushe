@@ -188,8 +188,8 @@ $(function () {
                     $('#passwd').focus();
                     return;
                 }else if (data.res == 'success') {
-                    alert('修改成功，即将跳转到主页！');
-                    window.location.href="person_center.php";
+                    alert('当前用户信息有变！即将跳转登录页');
+                    window.location.href="login.php";
                 }
             }
         });
@@ -244,6 +244,13 @@ $(function () {
     $("#submit_suggest").click(function () {
         var content = $("#content").val();
         var sele_suggest = $("#sele_suggest").val();
+        if(!content){
+            $("#content").next('span').html('不能为空').css('color','#f00');
+            $("#content").focus().css('border','1px solid #f00');
+            return;
+        }else {
+            $("#content").next('span').html('');
+        }
        //数据无误发送AJAX
         $.ajax({
             url: './submit_suggest_AJAX.php',

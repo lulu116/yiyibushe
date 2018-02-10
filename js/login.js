@@ -58,6 +58,8 @@ $(function(){
                     alert("用户名不存在！");
                 } else if(data.res == 'invail_passwd'){
                     alert("密码错误，请重新输入！");
+                    $("#passwd").css('border',"1px solid #f00");
+                    $("#passwd").focus();
                 }else if(data.res == 'success'){
                     alert("登录成功！");
                     location.href = "./index.php";

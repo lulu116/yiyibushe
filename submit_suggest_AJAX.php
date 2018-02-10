@@ -11,6 +11,7 @@
     $data['content'] = $_POST["content"];
     $data['types'] = $_POST["sele_suggest"];
     $data['admin_id'] = $_SESSION['admin_id'];
+    $data['username'] = $_SESSION['username'];
     $data['user_id'] = $_SESSION["user_id"];
     $row = $db->addData('suggest',$data);
     if($row){

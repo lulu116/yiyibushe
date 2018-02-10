@@ -4650,4 +4650,39 @@ margin-right: 21px;
     margin-right: 10px;
 }
 
+/*个人中心*/
+.dt_style {
+    font-size: 30px;
+    color:#f00;
+    font-weight: 600;
+    margin: 20px;
+    animation: change 5s infinite;
+}
+@keyframes change {
+    0% {
+        color: #e77064;
+    }
+    50%{
+        color: #d1a6dc;
+    }
+    100% {
+        color: #539a96;
+    }
+}
+.dl_style {
+    animation: change1 10s infinite;
+}
+@keyframes change1 {
+    0% {
+        color: #4ffcff;
+        font-style:italic;
+    }
+    50%{
+        color: #ff9ea3;
+        font-weight: 900;
+    }
+    100% {
+        color: #78ff76;
+    }
+}
 
