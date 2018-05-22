@@ -193,7 +193,7 @@
 																	class="iconfont-search"></i></a>
 														</li>
 														<li>
-															<a href="" class="circle addCart"
+															<a href="javascript:void();" class="circle addCart"
 															   productId="<?php echo $a_p_v['product_id'] ?>"><i
 																	class="iconfont-shopping-cart"></i></a>
 														</li>

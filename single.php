@@ -12,6 +12,10 @@
  	$color = $db->getDatas('color','*','product_id = "'.$product_msg["product_id"].'"');
 	$size = $db->getDatas('size','*','product_id = "'.$product_msg["product_id"].'"');
 	$stock = $db->getOneData('stock','*','product_id = "'.$product_msg["product_id"].'"');
+
+	//商品评论
+	$comment_msg = $db->getDatas('comment','*','product_id="'.$_GET["product_id"].'"');
+
 ?>
 <!DOCTYPE html>
 <head>
@@ -25,17 +29,9 @@
 	 <link rel="shortcut icon" href="images/yiyi_logo.png">
 	<!-- // Favorite Icons -->
 	<!-- GENERAL CSS FILES -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 	<link rel="stylesheet" href="css/minified.css">
 	<link rel="stylesheet" href="css/always.css">
-	<!-- // GENERAL CSS FILES -->
-	
-	<!--[if IE 8]>
-		<script src="js/respond.min.js"></script>
-		<script src="js/selectivizr-min.js"></script>
-	<![endif]-->
-	<!--
-	<script src="js/jquery.min.js"></script>
-	-->
 	<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>');</script>
 	<script src="js/modernizr.min.js"></script>	
 	<!-- PARTICULAR PAGES CSS FILES -->
@@ -45,6 +41,9 @@
 	<link rel="stylesheet" href="css/innerpage.css">
 	<!-- // PARTICULAR PAGES CSS FILES -->
 	<link rel="stylesheet" href="css/responsive.css">
+	<!-- <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /> -->
+
+    <!-- <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'> -->
 	<script>
 		window.onload = function(){
 			var nowTime = new Date();
@@ -251,6 +250,35 @@
 								<p><?php echo $product_msg['assure']?></p>
 							</div>
 						</div>
+					</div>
+					<div class="product-comment" >
+							<div class="response">
+                            <h3>喵喵喵！<?php echo $product_msg['productname']?>评论</h3>
+                            <?php
+                            	foreach ($comment_msg as $key => $value) {	
+                            ?>
+                            <div class="media response-info">
+                                <div class="media-left response-text-left">
+                                    <div>
+                                        <img class="userImg" src="upload/image/<?php echo $_SESSION['userImg']?>" alt="">
+                                    </div>
+                                    <h5><a href="#"><b><?php echo $_SESSION['username']?></b></a></h5>
+                                </div>
+                                <div class="media-body response-text-right">
+                                    <p style="width: 950px;word-wrap:break-word"><?php echo $value['content']?></p>
+                                    <ul>
+                                        <li>
+                                            <?php echo $value['commenttimes']?>
+                                        </li>
+                                        <button class="btn delComment" commentId="<?php echo $value['comment_id']?>">删除</button>
+                                    </ul>
+                                </div>
+                                <div class="clearfix"> </div>
+                            </div>
+                            <?php
+                            	}
+                            ?>
+                        </div>
 					</div>
 				</div>
 			</section>

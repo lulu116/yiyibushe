@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- 主机: 127.0.0.1
--- 生成日期: 2018-02-10 17:24:08
+-- 生成日期: 2018-05-22 20:15:44
 -- 服务器版本: 5.7.17-log
 -- PHP 版本: 5.5.30
 
@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS `admin` (
 --
 
 INSERT INTO `admin` (`admin_id`, `realname`, `passwd`, `loginnum`, `lasttimes`) VALUES
-(2, '刘婷', '202cb962ac59075b964b07152d234b70', 56, '2018-02-10 16:44:29');
+(2, '刘婷', '202cb962ac59075b964b07152d234b70', 65, '2018-05-22 17:10:15');
 
 -- --------------------------------------------------------
 
@@ -57,19 +57,19 @@ CREATE TABLE IF NOT EXISTS `cart` (
   `user_id` int(11) NOT NULL COMMENT '用户id',
   `cart_num` int(11) NOT NULL DEFAULT '1' COMMENT '加购单件商品数量',
   PRIMARY KEY (`cart_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=22 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=25 ;
 
 --
 -- 转存表中的数据 `cart`
 --
 
 INSERT INTO `cart` (`cart_id`, `product_id`, `color_id`, `size_id`, `addtimes`, `user_id`, `cart_num`) VALUES
-(15, 55, 58, 39, '2017-12-26 21:14:01', 8, 2),
-(16, 54, 47, 38, '2017-12-26 21:15:51', 8, 2),
-(17, 40, 57, 35, '2017-12-26 21:21:53', 8, 1),
-(19, 51, 41, 33, '2017-12-31 14:53:40', 8, 5),
-(20, 56, 45, 48, '2017-12-31 14:55:09', 8, 1),
-(21, 46, 48, 42, '2017-12-31 15:01:51', 8, 4);
+(19, 51, 41, 33, '2017-12-31 14:53:40', 8, 14),
+(20, 56, 45, 48, '2017-12-31 14:55:09', 8, 2),
+(21, 46, 48, 42, '2017-12-31 15:01:51', 8, 4),
+(22, 50, 42, 36, '2018-05-22 09:41:37', 8, 3),
+(23, 49, 41, 35, '2018-05-22 17:09:10', 8, 2),
+(24, 40, 44, 31, '2018-05-22 19:59:09', 8, 1);
 
 -- --------------------------------------------------------
 
@@ -176,7 +176,7 @@ CREATE TABLE IF NOT EXISTS `color` (
   `product_id` int(11) NOT NULL COMMENT '商品id',
   `colorname` char(60) NOT NULL COMMENT '颜色名称',
   PRIMARY KEY (`color_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=54 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=55 ;
 
 --
 -- 转存表中的数据 `color`
@@ -213,7 +213,40 @@ INSERT INTO `color` (`color_id`, `product_id`, `colorname`) VALUES
 (50, 54, '深蓝色'),
 (51, 55, '黑色'),
 (52, 56, '白色'),
-(53, 56, '黑色');
+(53, 56, '黑色'),
+(54, 57, '蓝色');
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `comment`
+--
+
+CREATE TABLE IF NOT EXISTS `comment` (
+  `comment_id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键',
+  `product_id` int(11) NOT NULL COMMENT '商品id',
+  `user_id` int(11) NOT NULL COMMENT '用户id',
+  `content` char(240) DEFAULT NULL COMMENT '内容 ',
+  `username` char(16) NOT NULL COMMENT '评论用户',
+  `commenttimes` datetime NOT NULL COMMENT '评论时间',
+  PRIMARY KEY (`comment_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=22 ;
+
+--
+-- 转存表中的数据 `comment`
+--
+
+INSERT INTO `comment` (`comment_id`, `product_id`, `user_id`, `content`, `username`, `commenttimes`) VALUES
+(11, 46, 8, 'fdsfdsfdsasfdsfdsfdsasfdsfdsfdsasfdsfdsfdsasfdsfdsfdsasfdsfdsfdsasfdsfdsffdsfdsfdsasfdsfdsfdsasfdsfdsfdsasfdsfdsfdsasfdsfdsfdsasfdsfdsfdsasfdsfdsf', '刘婷', '2018-05-22 17:30:33'),
+(12, 46, 8, 'sfdsasfdsfdsfdsasfdsfdsfdsasfdsfdsfdsasfdsfdsfdsasfdsfdsffdsfdsfdsasf', '刘婷', '2018-05-22 17:33:44'),
+(13, 46, 8, 'sfdsasfdsfdsfdsasfdsfdsfdsasfdsfdsfdsasfdsfdsfdsasfdsfdsffdsfdsfdsasfsfdsasfdsfdsfdsasfdsfdsfdsasfdsfdsfdsasfdsfdsfdsasfdsfdsffdsfdsfdsasf', '刘婷', '2018-05-22 17:33:50'),
+(15, 51, 8, 'dsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdf', '刘婷', '2018-05-22 17:38:08'),
+(16, 51, 8, 'sfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdf', '刘婷', '2018-05-22 17:38:23'),
+(17, 51, 8, 'sfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfsfasdfdsfdfdfd', '刘婷', '2018-05-22 17:40:45'),
+(18, 51, 8, 'sfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdfdsfasdfdsfdfdf夺夺夺', '刘婷', '2018-05-22 17:54:56'),
+(19, 40, 8, 'dfsdgd地二二地二一夺奇才dgfdgfdgfdgfgfgfgdsfgfdgfdgfg', '刘婷', '2018-05-22 20:09:53'),
+(20, 40, 8, 'dgdfgdsfgdfgsfdgfdgf', '刘婷', '2018-05-22 20:09:59'),
+(21, 40, 8, 'dsfasdfdsfadsf', '刘婷', '2018-05-22 20:10:04');
 
 -- --------------------------------------------------------
 
@@ -236,7 +269,7 @@ CREATE TABLE IF NOT EXISTS `orders` (
   `totalprices` float NOT NULL,
   `status` int(11) NOT NULL COMMENT '1：付款:0：未付款:3：退货:4：退款等',
   PRIMARY KEY (`order_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=13 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=15 ;
 
 --
 -- 转存表中的数据 `orders`
@@ -247,7 +280,7 @@ INSERT INTO `orders` (`order_id`, `product_id`, `color_id`, `size_id`, `user_id`
 (9, 50, 42, 36, 8, '刘婷', '2018-01-12 07:37:32', '四川省广元市苍溪县高级职业中学 张三（收）。', 123456789, 52, 1, 52, 1),
 (10, 51, 44, 37, 9, '涛哥', '2018-01-16 10:40:46', '四川省自贡市自流井区四川理工学院 王涛收', 123456789, 120, 1, 120, 1),
 (11, 51, 44, 37, 9, '涛哥', '2018-01-16 10:55:36', '四川省自贡市自流井区四川理工学院 王涛收', 123456789, 120, 1, 120, 1),
-(12, 46, 36, 32, 9, '涛哥', '2018-01-16 11:00:05', '四川省自贡市自流井区四川理工学院 王涛收', 123456789, 120, 1, 120, 1);
+(14, 40, 28, 26, 8, '刘婷', '2018-05-22 12:09:27', '四川省成都市金牛区xxxxxxx大楼7-102  张三（收）', 123456789, 203, 1, 203, 1);
 
 -- --------------------------------------------------------
 
@@ -274,7 +307,7 @@ CREATE TABLE IF NOT EXISTS `product` (
   `status` int(11) NOT NULL DEFAULT '1' COMMENT '1：上架 0 ：下架',
   `username` char(16) NOT NULL COMMENT '添加商品人',
   PRIMARY KEY (`product_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=57 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=58 ;
 
 --
 -- 转存表中的数据 `product`
@@ -297,7 +330,8 @@ INSERT INTO `product` (`product_id`, `productname`, `imgs`, `cate_id_p`, `cate_i
 (53, '花毛衣', ',http://localhost/lulu_PHP_Project/yiyibushe/upload/image/mao22.jpg,http://localhost/lulu_PHP_Project/yiyibushe/upload/image/mao55.jpg,http://localhost/lulu_PHP_Project/yiyibushe/upload/image/mao66.jpg', 15, 22, 102, '0', '1', '0', 2, '<p>看回圆月回圆月因吸蜀犬吠日胃顺吸圆月圆月圆月圆月吸吸吸回 吸回有咀嚼加</p>', '花毛衣', '1.送货上门；2.七天免费退换', '2017-12-20 20:26:00', '2017-12-20 20:26:00', 1, '刘婷'),
 (54, '牛仔裤', ',http://localhost/lulu_PHP_Project/yiyibushe/upload/image/ku1.jpg,http://localhost/lulu_PHP_Project/yiyibushe/upload/image/ku2.jpg,http://localhost/lulu_PHP_Project/yiyibushe/upload/image/ku33.jpg', 16, 26, 198, '0', '1', '0', 1, '<p>夺夺在3遥夺虽百回圆月顺啡右国因虽别圆月顺国蜀犬吠日</p>', '牛仔裤', '1.七天免费退货；2.免费送小礼物', '2017-12-20 20:27:44', '2017-12-20 20:27:44', 1, '刘婷'),
 (55, '夹克', ',http://localhost/lulu_PHP_Project/yiyibushe/upload/image/jiek2.jpg,http://localhost/lulu_PHP_Project/yiyibushe/upload/image/jiek1.jpg,http://localhost/lulu_PHP_Project/yiyibushe/upload/image/jiek3.jpg', 15, 23, 912, '0', '1', '0', 1, '<p>地方右回加盟顺圆月回回圆月加厚 顺国回中</p>', '小夹克', '1.七天免费退货；2.免费送小礼物', '2017-12-20 20:28:57', '2017-12-20 20:28:57', 1, '刘婷'),
-(56, '冬季棉衣', ',http://localhost/lulu_PHP_Project/yiyibushe/upload/image/mao4.jpg,http://localhost/lulu_PHP_Project/yiyibushe/upload/image/mian1.jpg,http://localhost/lulu_PHP_Project/yiyibushe/upload/image/mian2.jpg', 15, 24, 562, '0', '0', '0', 2, '<p>在辰夺遥夺遥夺有在的在人城有震遥地在摇肝在有需用埒胯胯</p>', '服装-棉衣', '1.送货上门；2.七天免费退换', '2017-12-24 09:49:44', '2017-12-24 09:49:44', 1, '刘婷');
+(56, '冬季棉衣', ',http://localhost/lulu_PHP_Project/yiyibushe/upload/image/mao4.jpg,http://localhost/lulu_PHP_Project/yiyibushe/upload/image/mian1.jpg,http://localhost/lulu_PHP_Project/yiyibushe/upload/image/mian2.jpg', 15, 24, 562, '0', '0', '0', 2, '<p>在辰夺遥夺遥夺有在的在人城有震遥地在摇肝在有需用埒胯胯</p>', '服装-棉衣', '1.送货上门；2.七天免费退换', '2017-12-24 09:49:44', '2017-12-24 09:49:44', 1, '刘婷'),
+(57, '蓝色牛仔裤', ',http://localhost/lulu_PHP_Project/yiyibushe/upload/image/niuzai3.jpg,http://localhost/lulu_PHP_Project/yiyibushe/upload/image/niuzai.jpg,http://localhost/lulu_PHP_Project/yiyibushe/upload/image/niuzai2.jpg', 16, 26, 258, '0', '1', '0', 1, '<p>中因回加盟加回回味因加</p>', '服装-下装', '1.送货上门；2.七天免费退换', '2018-03-15 21:33:13', '2018-03-15 21:33:13', 1, '刘婷');
 
 -- --------------------------------------------------------
 
@@ -310,7 +344,7 @@ CREATE TABLE IF NOT EXISTS `size` (
   `product_id` int(11) NOT NULL COMMENT '商品id',
   `sizename` char(60) NOT NULL COMMENT '尺寸大小',
   PRIMARY KEY (`size_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=44 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=46 ;
 
 --
 -- 转存表中的数据 `size`
@@ -339,7 +373,9 @@ INSERT INTO `size` (`size_id`, `product_id`, `sizename`) VALUES
 (40, 53, 'S'),
 (41, 54, 'L'),
 (42, 55, 'XL'),
-(43, 56, 'S');
+(43, 56, 'S'),
+(44, 57, 'L'),
+(45, 57, 'XL');
 
 -- --------------------------------------------------------
 
@@ -356,7 +392,7 @@ CREATE TABLE IF NOT EXISTS `stock` (
   `updatetimes` datetime DEFAULT NULL COMMENT '修改时间',
   `stocknum` int(11) NOT NULL COMMENT '库存数量',
   PRIMARY KEY (`stock_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=41 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=42 ;
 
 --
 -- 转存表中的数据 `stock`
@@ -384,7 +420,8 @@ INSERT INTO `stock` (`stock_id`, `product_id`, `color_id`, `size_id`, `addtimes`
 (37, 53, 49, 40, '2017-12-20 20:26:01', '2017-12-20 20:26:01', 20),
 (38, 54, 50, 41, '2017-12-20 20:27:45', '2017-12-20 20:27:45', 120),
 (39, 55, 51, 42, '2017-12-20 20:28:57', '2017-12-20 20:28:57', 1000),
-(40, 56, 53, 43, '2017-12-24 09:49:45', '2017-12-24 09:49:45', 899);
+(40, 56, 53, 43, '2017-12-24 09:49:45', '2017-12-24 09:49:45', 899),
+(41, 57, 54, 45, '2018-03-15 21:33:14', '2018-03-15 21:33:14', 1000);
 
 -- --------------------------------------------------------
 
@@ -396,21 +433,20 @@ CREATE TABLE IF NOT EXISTS `suggest` (
   `suggest_id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `user_id` int(11) NOT NULL COMMENT '用户ID',
   `username` char(11) NOT NULL,
+  `addtimes` datetime DEFAULT NULL COMMENT '反馈意见添加时间',
   `types` char(24) NOT NULL COMMENT '意见类型',
   `admin_id` int(11) NOT NULL COMMENT '管理员ID',
   `content` char(240) NOT NULL COMMENT '内容',
   `admin_suggest` char(240) DEFAULT NULL COMMENT '管理员给用户的反馈',
   PRIMARY KEY (`suggest_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=21 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=24 ;
 
 --
 -- 转存表中的数据 `suggest`
 --
 
-INSERT INTO `suggest` (`suggest_id`, `user_id`, `username`, `types`, `admin_id`, `content`, `admin_suggest`) VALUES
-(18, 8, '刘婷', '配送问题', 2, '艰', '迥'),
-(19, 8, '刘婷', '支付问题', 2, '154487旧旧间卓上班族睛', '迥'),
-(20, 8, '刘婷', '发票问题', 2, 'dfasdfdskljfalskdjfklsdfasdf', 'uytu');
+INSERT INTO `suggest` (`suggest_id`, `user_id`, `username`, `addtimes`, `types`, `admin_id`, `content`, `admin_suggest`) VALUES
+(23, 8, '刘婷', '2018-05-22 10:50:28', '产品问题', 2, '夺夺辰夺夺', '65656');
 
 -- --------------------------------------------------------
 
@@ -437,7 +473,7 @@ CREATE TABLE IF NOT EXISTS `user` (
 --
 
 INSERT INTO `user` (`user_id`, `username`, `passwd`, `userImg`, `tel`, `registtimes`, `loginnum`, `logintimes`, `loginout`, `useraddress`) VALUES
-(8, '刘婷', '83222e3274d6911f63485a7e7336132e', 'userimg.jpg', '123456789', '2017-12-19 20:56:52', 49, '2018-02-10 17:13:39', '2018-02-10 17:12:25', '四川省成都市金牛区xxxxxxx大楼7-102  张三（收）'),
+(8, '刘婷', '83222e3274d6911f63485a7e7336132e', 'userimg.jpg', '123456789', '2017-12-19 20:56:52', 55, '2018-05-22 10:46:28', '2018-05-15 21:37:03', '四川省成都市金牛区xxxxxxx大楼7-102  张三（收）'),
 (9, '涛哥', 'a83aebcf531aacd35eea7f71e81c707c', 'userimg.jpg', '123456789', '2018-01-16 18:24:57', 3, '2018-01-16 18:55:15', '2018-01-16 18:40:03', '四川省自贡市自流井区四川理工学院 王涛收');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

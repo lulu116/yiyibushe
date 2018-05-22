@@ -13,7 +13,7 @@
                    <div id="theme-change" class="hidden-phone">
                        <i class="icon-cogs"></i>
                         <span class="settings">
-                            <span class="text">Theme Color:</span>
+                            <span class="text">主题颜色 :</span>
                             <span class="colors">
                                 <span class="color-default" data-style="default"></span>
                                 <span class="color-green" data-style="green"></span>

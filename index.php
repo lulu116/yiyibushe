@@ -134,7 +134,7 @@
 												<?php
 													$woman_menu_sub = $db->getDatas('cate', '*', 'parent_cate_id="' . $cate_id . '"');
 													foreach($woman_menu_sub as $w_m_s_k => $w_m_s_v){
-														echo '<li><a href="product.php?cate_id_p='.$w_m_s_v['parent_cate_id'].'">'.$w_m_s_v["catename"].'</a></li>';
+														echo '<li><a href="product.php?cate_id_c='.$w_m_s_v['cate_id'].'">'.$w_m_s_v["catename"].'</a></li>';
 													}
 												?>
 											</ul>
@@ -419,7 +419,7 @@
 													<a href="<?php echo $imgarr[1]?>" class="circle" data-toggle="lightbox"><i class="iconfont-search"></i></a>
 												</li>
 												<li>
-													<a href="" class="circle addCart" productId="<?php echo $w_s_v['product_id']?>"><i class="iconfont-shopping-cart"></i></a>
+													<a href="javascript:void();" class="circle addCart" productId="<?php echo $w_s_v['product_id']?>"><i class="iconfont-shopping-cart"></i></a>
 												</li>
 
 											</ul>
@@ -493,7 +493,7 @@
 													<a href="<?php echo $imgarr[1]?>" class="circle" data-toggle="lightbox"><i class="iconfont-search"></i></a>
 												</li>
 												<li>
-													<a href="#" class="circle addCart" productId="<?php echo $m_s_v['product_id']?>"><i class="iconfont-shopping-cart"></i></a>
+													<a href="javascript:void();" class="circle addCart" productId="<?php echo $m_s_v['product_id']?>"><i class="iconfont-shopping-cart"></i></a>
 												</li>
 											</ul>
 											<div class="rate-bar">

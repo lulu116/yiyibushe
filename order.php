@@ -203,8 +203,16 @@
                                                 </li>
                                                 <div class="move-right">
                                                     <li class="td td-change">
+                                                        <div class="am-btn am-btn-success anniu">
+                                                        <a href='comment.html?product_id=<?php echo $order_v[0]['product_id']?>'> 
+                                                            评论
+                                                        </a>
+                                                        </div>
+                                                    </li>
+                                                    <li class="td td-change">
                                                         <div class="am-btn am-btn-danger anniu delOrder" order_id="<?php echo $order_v[0]['product_id']?>">
-                                                            删除订单</div>
+                                                            删除订单
+                                                        </div>
                                                     </li>
                                                 </div>
                                             </div>

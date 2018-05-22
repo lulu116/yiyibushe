@@ -23,7 +23,7 @@
 		 */
 		function getOneData($table,$fields='*',$where='1=1'){
 			 $sql    = 'SELECT '.$fields.' FROM '.$table.' WHERE '.$where.' LIMIT 1';
-//			   echo $sql;
+			   // echo $sql;
 		     $result = $this->dblink->query($sql);
 		     $row    = $result->fetch_array(MYSQLI_ASSOC);
 		     return $row;
@@ -53,7 +53,7 @@
             // $fieldA = arrray('catename', 'admin_id');
             //implode(',', array(键名))
             $sql = 'INSERT INTO '.$table.'('.implode(', ', $fieldA).') VALUES('.implode(',', $data).')';
-//			 echo $sql;
+			 // echo $sql;
             //INSERT INTO cate(catename, admin_id) VALUES("栏目名称", 6)
             $r = $this->dblink->query($sql);
             return $r;
@@ -95,7 +95,7 @@
                 $fielddataA[$i++] = $field . ' = ' . $value;
             }
             $sql    = 'UPDATE '.$table.' SET '.implode(', ', $fielddataA).' WHERE ' . $where;
-//             echo $sql;
+            // echo $sql;
             $r      = $this->dblink->query($sql);
             return $r;
         }

@@ -2,7 +2,7 @@
     require './head.php';
     //获取全部的一级分类
     $cate_one = $db->getDatas('cate','*','parent_cate_id=0');
-
+    // var_dump($cate_one);
 ?>
     <!-- 编辑器使用的==配置文件 start-->
     <script type="text/javascript" src="public/plug/ue/ueditor.config.js"></script>
@@ -180,9 +180,9 @@
                                     </div>
                                 </div>
                                 <div class="control-group">
-                                    <label class="control-label">产品类型</label>
+                                    <label class="control-label">男装或女装</label>
                                     <div class="controls">
-                                        <input type="number" id="sex_type" name="sex_type" class="span6 " />
+                                        <input type="number" id="sex_type" name="sex_type" class="span6 " placeholder="男装：1，女装：2" />
                                         <span></span>
                                     </div>
                                 </div>

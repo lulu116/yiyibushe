@@ -1,6 +1,6 @@
 <?php 
     require './head.php';
-    $admin_suggest = $db->getDatas('suggest','suggest_id,username,content,admin_suggest,types ','admin_id="'.$_SESSION["admin_id"].'"');
+    $admin_suggest = $db->getDatas('suggest','*','admin_id="'.$_SESSION["admin_id"].'"');
 
 ?>
       <!-- BEGIN PAGE -->
@@ -65,6 +65,7 @@
                                          <th style="text-align: center;">用户提交反馈类型</th>
                                          <th style="text-align: center;">用户提交反馈</th>
                                          <th style="text-align: center;">管理员回复反馈</th>
+                                         <th style="text-align: center;">提交反馈时间</th>
                                      </tr>
                                      </thead>
                                      <tbody>
@@ -77,6 +78,7 @@
                                          <td style="text-align: center;"><?php echo $value["types"]?></td>
                                          <td ><?php echo $value["content"]?></td>
                                          <td style="text-align: center;"><?php echo $value["admin_suggest"]?></td>
+                                         <td ><?php echo $value["addtimes"]?></td>
                                           <td>
                                                 <a href="updateSuggest.php?suggest_id=<?=$value['suggest_id'];?>" class="btn btn-primary"><i class="icon-pencil"></i></a>
                                                 <button type="button" suggest_id="<?=$value['suggest_id'];?>" class="btn btn-danger delsuggest"><i class="icon-trash "></i></button>

@@ -65,6 +65,7 @@ $(document).ready(function() {
             dataType: 'json',
             data: { cate_id_p: cate_id_p },
             success: function(data) {
+                // console.log(data)
                 //遍历数组
                 $(data).each(function(index, ele) {
                     var cate_child_option = '<option value="'+ele.cate_id+'">'+ele.catename+'</option>';
@@ -249,23 +250,25 @@ $(document).ready(function() {
     });
     //12.修改管理员给用户的反馈
     $("#update_suggest").click(function(){
+        
         var admin_suggest = $("#admin_suggest").val();
         var suggest_id = $("#admin_suggest").attr("suggest_id");
+
         $.ajax({
-            url: 'updateSuggest_AJAX.php',
+            url: './updateSuggest_AJAX.php',
             type: 'POST',
             dataType: 'json',
-            data: { admin_suggest: admin_suggest,suggest_id:suggest_id },
+            data: {admin_suggest:admin_suggest,suggest_id:suggest_id},
             success: function(data) {
                 if (data.res == 'success') {
-                    alert('修改成功！');
-                    window.location.href = "./admin_suggest.php"; //刷新当前页
-                } else if(data.res == 'error') {
-                    alert('修改失败！');
-                    window.location.reload(); //刷新当前页
+                    alert('操作成功！');
+                    window.location.href = './admin_suggest.php';
+                } else if (data.res == 'error'){
+                    alert('操作失败！');
                 }
             }
         });
+       
     });
 
 

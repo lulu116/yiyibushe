@@ -2,12 +2,8 @@
 	require './common/common.php';
 	//获取相应的产品信息
 	//1.根据传送过来的一级分类获取相应的产品信息
-	$product_cate_msg = $db->getDatas('product','*','cate_id_p="'.$_GET["cate_id_p"].'"');
-	foreach($product_cate_msg as $p_c_m_k => $p_c_m_v){
-		//2.根据当前一级分类找出对应二级分类与产品表中一致的信息
-		$product_sub_msg = $db->getDatas('product','*','cate_id_c="'.$p_c_m_v["cate_id_c"].'"');
-	}
-
+	$product_cate_msg = $db->getDatas('product','*','cate_id_c="'.$_GET["cate_id_c"].'"');
+	
 ?>
 <!DOCTYPE html>
 <head>
@@ -175,14 +171,15 @@
 								<!-- PRODUCT LAYOUT -->
 								<div class="products-layout grid m-t-b add-cart" data-product=".product" data-thumbnail=".entry-media .thumb" data-title=".entry-title > a" data-url=".entry-title > a" data-price=".entry-price > .price">
 									<?php
-										foreach($product_sub_msg as $p_s_m_k => $p_s_m_v){
-											$product_main = explode(',', $p_s_m_v['imgs']);
+										foreach($product_cate_msg as $p_s_m_k => $value){
+												$product_main = explode(',', $value['imgs']);
+							
 									?>
 									<div class="product" data-category="women|women-jeans|women-skirt" data-brand="brand1" data-price="250" data-colors="red|blue|black|white" data-size="S|M|L">
 										<div class="entry-media">
-											<img data-src="<?php echo $product_main[1]?>" alt="<?php echo $p_s_m_v['productname']?>" title="<?php echo $p_s_m_v['productname']?>" class="lazyLoad thumb" style="height: 300px;"/>
+											<img data-src="<?php echo $product_main[1]?>" alt="<?php echo $value['productname']?>" title="<?php echo $value['productname']?>" class="lazyLoad thumb" style="height: 300px;"/>
 											<div class="hover">
-												<a href="single.php?product_id=<?php echo $p_s_m_v['product_id']?>" class="entry-url"></a>
+												<a href="single.php?product_id=<?php echo $value['product_id']?>" class="entry-url"></a>
 												<ul class="icons unstyled">
 													<li>
 														<div class="circle ribbon ribbon-sale">新款</div>
@@ -191,7 +188,7 @@
 														<a href="<?php echo $product_main[1]?>" class="circle" data-toggle="lightbox"><i class="iconfont-search"></i></a>
 													</li>
 													<li>
-														<a href="" class="circle addCart" productId="<?php echo $p_s_m_v['product_id']?>"><i class="iconfont-shopping-cart"></i></a>
+														<a href="" class="circle addCart" productId="<?php echo $value['product_id']?>"><i class="iconfont-shopping-cart"></i></a>
 													</li>
 												</ul>
 												<div class="rate-bar">
@@ -202,23 +199,24 @@
 										</div>
 										<div class="entry-main">
 											<h5 class="entry-title">
-												<a href="single.php"><?php echo $p_s_m_v['productname']?></a>
+												<a href="single.php"><?php echo $value['productname']?></a>
 											</h5>
 											<div class="entry-description visible-list">
-												<p><?php echo $p_s_m_v['detail']?></p>
+												<p><?php echo $value['detail']?></p>
 											</div>
 											<div class="entry-price">
-												<s class="entry-discount">$<?php echo $p_s_m_v['price']?>.00</s>
-												<strong class="accent-color price">$<?php echo $p_s_m_v['price'] * 0.95 ?> </strong>
-												<a href="#" class="btn btn-round btn-default visible-list addCart" productId="<?php echo $p_s_m_v['product_id']?>">加入购物车</a>
+												<s class="entry-discount">$<?php echo $value['price']?>.00</s>
+												<strong class="accent-color price">$<?php echo $value['price'] * 0.95 ?> </strong>
+												<a href="#" class="btn btn-round btn-default visible-list addCart" productId="<?php echo $value['product_id']?>">加入购物车</a>
 											</div>
 											<div class="entry-links clearfix">
-												<a href="#" class="pull-left m-r addCollect" productId="<?php echo $p_s_m_v['product_id']?>">添加收藏</a>
-												<a href="#" class="pull-right addCart" productId="<?php echo $p_s_m_v['product_id']?>">加入购物车</a>
+												<a href="#" class="pull-left m-r addCollect" productId="<?php echo $value['product_id']?>">添加收藏</a>
+												<a href="#" class="pull-right addCart" productId="<?php echo $value['product_id']?>">加入购物车</a>
 											</div>
 										</div>
 									</div>
 									<?php
+											
 										}
 									?>
 									
