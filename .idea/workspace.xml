@@ -2,37 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f911d1f-1dcb-4cd9-b715-3bc938c73a0f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/addComment_AJAX.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delComment_AJAX.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/niuzai.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/niuzai2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/niuzai3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/xizhuang1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/xizhuang2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/xizhuang3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/image/niuzai.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/image/niuzai2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/image/niuzai3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yiyibushe.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/addContent.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/addContent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin_suggest.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin_suggest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/js/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/js/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/updateSuggest.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/updateSuggest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collect.php" beforeDir="false" afterPath="$PROJECT_DIR$/collect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/minified.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/minified.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order.php" beforeDir="false" afterPath="$PROJECT_DIR$/order.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addCart_AJAX.php" beforeDir="false" afterPath="$PROJECT_DIR$/addCart_AJAX.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/always.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/always.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submit_suggest_AJAX.php" beforeDir="false" afterPath="$PROJECT_DIR$/submit_suggest_AJAX.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yiyibushe .sql" beforeDir="false" />
     </list>
     <ignored path="yiyibushe.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,11 +25,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="addComment_AJAX.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="addComment_AJAX.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addComment_AJAX.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="store_location.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store_location.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="132" column="10" lean-forward="true" selection-start-line="132" selection-start-column="10" selection-end-line="132" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/map.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/single.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="206" column="51" selection-start-line="206" selection-start-column="51" selection-end-line="206" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addCart_AJAX.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addCart_AJAX.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="always.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/always.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="118" column="13" lean-forward="true" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -70,6 +97,11 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>加入购物</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -87,7 +119,6 @@
         <option value="$PROJECT_DIR$/admin/addContent.php" />
         <option value="$PROJECT_DIR$/delCart_AJAX.php" />
         <option value="$PROJECT_DIR$/addCart_icon_AJAX.php" />
-        <option value="$PROJECT_DIR$/addCart_AJAX.php" />
         <option value="$PROJECT_DIR$/addCollect_AJAX.php" />
         <option value="$PROJECT_DIR$/js/test.js" />
         <option value="$PROJECT_DIR$/css/vipstyle.css" />
@@ -101,7 +132,6 @@
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/pay_AJAX.php" />
         <option value="$PROJECT_DIR$/delOrder_AJAX.php" />
-        <option value="$PROJECT_DIR$/single.php" />
         <option value="$PROJECT_DIR$/cart.php" />
         <option value="$PROJECT_DIR$/collect.php" />
         <option value="$PROJECT_DIR$/product.php" />
@@ -111,7 +141,6 @@
         <option value="$PROJECT_DIR$/order.php" />
         <option value="$PROJECT_DIR$/suggest.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/css/always.css" />
         <option value="$PROJECT_DIR$/store_location.php" />
         <option value="$PROJECT_DIR$/login_AJAX.php" />
         <option value="$PROJECT_DIR$/footer.php" />
@@ -128,6 +157,9 @@
         <option value="$PROJECT_DIR$/admin/class/db.php" />
         <option value="$PROJECT_DIR$/admin/js/admin.js" />
         <option value="$PROJECT_DIR$/js/login.js" />
+        <option value="$PROJECT_DIR$/css/always.css" />
+        <option value="$PROJECT_DIR$/single.php" />
+        <option value="$PROJECT_DIR$/addCart_AJAX.php" />
       </list>
     </option>
   </component>
@@ -158,7 +190,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,6 +201,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,7 +265,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512870687942</updated>
-      <workItem from="1526991055374" duration="726000" />
+      <workItem from="1526991055374" duration="1653000" />
+      <workItem from="1527126343170" duration="1148000" />
     </task>
     <task id="LOCAL-00001" summary="新增图标">
       <created>1515501841212</created>
@@ -274,7 +307,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="726000" />
+    <option name="totallyTimeSpent" value="2801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -282,23 +315,23 @@
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,13 +426,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addCart_AJAX.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/updateUserImg_AJAX.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -455,13 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="129" column="14" selection-start-line="95" selection-start-column="8" selection-end-line="129" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -490,38 +509,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/always.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="206" column="16" selection-start-line="206" selection-start-column="16" selection-end-line="206" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_AJAX.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="79" column="38" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store_location.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="142" column="38" selection-start-line="142" selection-start-column="38" selection-end-line="142" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -650,17 +641,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="252" column="9" selection-start-line="252" selection-start-column="9" selection-end-line="252" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addComment_AJAX.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/always.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="118" column="13" lean-forward="true" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store_location.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="132" column="10" lean-forward="true" selection-start-line="132" selection-start-column="10" selection-end-line="132" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="206" column="51" selection-start-line="206" selection-start-column="51" selection-end-line="206" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login_AJAX.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addCart_AJAX.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
         </state>
       </provider>
     </entry>

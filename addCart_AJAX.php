@@ -20,6 +20,9 @@
         echo json_encode(array('res'=>'no_size'));
         exit;
     }
+    //更新库存表
+    $sql = 'UPDATE stock SET updatetimes = now(),stocknum = stocknum-1 WHERE product_id='.$_POST['productId'];
+    $db->dblink->query($sql);
     $row = $db->getOneData('cart','*','user_id='.$_SESSION['user_id'].' AND  product_id='.$_POST['productId']);
         //真：更新数据；假：添加数据
     if($row){
