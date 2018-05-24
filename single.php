@@ -273,7 +273,7 @@
                                         <li>
                                             <?php echo $value['commenttimes']?>
                                         </li>
-                                        <button class="btn delComment" commentId="<?php echo $value['comment_id']?>">删除</button>
+
                                     </ul>
                                 </div>
                                 <div class="clearfix"> </div>
