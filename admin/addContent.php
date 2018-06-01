@@ -84,7 +84,7 @@
                                     <label class="control-label">二级分类</label>
                                     <div class="controls">
                                         <select class="span6 " name="cate_id_c" id="cate_id_c" tabindex="1">
-                                            <option value="0">请选择</option>
+                                            <option value="0" >请选择</option>
                                         </select>
                                     </div>
                                 </div>

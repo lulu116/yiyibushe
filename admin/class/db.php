@@ -49,10 +49,6 @@
             $returnid:numbrt,默认为0，不返回ID,1:返回当前ID
          */
         function addData($table, $data, $returnid = 0){
-            // $data = array(
-            //     'catename'=> '"栏目名称"',
-            //     'admin_id'=> 6,
-            // );
             //把所有的键（也就是字段名）放到一个数组里面
             $fieldA = array();
             foreach ($data as $field => &$value) {
@@ -65,7 +61,9 @@
             // $fieldA = arrray('catename', 'admin_id');
             //implode(',', array(键名))
             $sql = 'INSERT INTO '.$table.'('.implode(', ', $fieldA).') VALUES('.implode(',', $data).')';
+            // echo $sql;
             $r = $this->dblink->query($sql);
+
             if($returnid){
                 return $this->dblink->insert_id; //有产品ID则返回当前对应的产品ID
             }
@@ -105,7 +103,7 @@
                 $fielddataA[$i++] = $field . ' = ' . $value;
             }
             $sql    = 'UPDATE '.$table.' SET '.implode(', ', $fielddataA).' WHERE ' . $where;
-//            echo $sql;
+           // echo $sql;
             $r      = $this->dblink->query($sql);
             return $r;
 

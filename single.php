@@ -205,7 +205,7 @@
 												</select>
 											</li>
 											<li>数量:
-											    <input type="number"/>
+											    <input type="number" value="1"/>
 											</li>
 											<li>
 												库存：<span style="font-size:15px;color:#FA6F57;font-weight:600;"><?php echo $stock['stocknum']?></span>

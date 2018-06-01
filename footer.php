@@ -69,7 +69,7 @@
 										</li>
 										<li>
 											<span class="list-icon"><i class="round-icon iconfont-phone"></i></span>
-											<div class="list-content"><?php echo $_SESSION['tel']?></div>
+											<div class="list-content">444 (100) 1234</div>
 										</li>
 										<li>
 											<span class="list-icon"><i class="round-icon iconfont-envelope-alt"></i></span>

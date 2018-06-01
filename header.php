@@ -6,7 +6,7 @@
 			if($_SESSION['username']){
 		?>
 			<div class="row">
-				<div class="col-xs-12 col-sm-6 col-md-7">
+				<div class="col-xs-12 col-sm-6 col-md-5">
 					<!-- CONTACT INFO -->
 					<div class="contact-info index-left">
 						<img src="upload/image/<?php echo $_SESSION['userImg']?>" alt="" class="userImg">
@@ -15,7 +15,7 @@
 					</div>
 					<!-- // CONTACT INFO -->
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-5">
+				<div class="col-xs-12 col-sm-6 col-md-7">
 					<ul class="actions header-icon">
 
 						<li>喵喵喵！欢迎主人<b><?php echo $_SESSION['username']?></b>回家</li>
@@ -24,7 +24,7 @@
 						}else {
 								echo '
 									<div class="row">
-								<div class="col-xs-12 col-sm-6 col-md-7">
+								<div class="col-xs-12 col-sm-6 col-md-5">
 								<!-- CONTACT INFO -->
 								<div class="contact-info">
 									<i class="iconfont-headphones round-icon"></i>
@@ -33,7 +33,7 @@
 								</div>
 								<!-- // CONTACT INFO -->
 							</div>
-							<div class="col-xs-12 col-sm-6 col-md-5">
+							<div class="col-xs-12 col-sm-6 col-md-7">
 								<ul class="actions header-icon">
 									<li><span class="login"></span><a href="login.php">请登录</a></li>
 									<li><span class="regist"></span><a href="regist.php">免费注册</a></li>
